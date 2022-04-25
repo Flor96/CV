@@ -1,0 +1,104 @@
+body {
+    font-family: 'Roboto';
+    color: #2A2A2A;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.fixed-nav {
+    position: fixed;
+    width: 100vw;
+    background: white;
+    z-index: 4;
+    top: 0;
+    background-color: #BEB2B1;
+    height: 50px;
+}
+
+.btns-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.portada {
+    margin-top: 68px;
+}
+
+.portada-container {
+    width: auto;
+    height: 180px;
+    background-color: #F5DCD8;
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.apellido-nombre {
+    margin-left: 100px;
+}
+
+.apellido-nombre div {
+    font-size: 35px;
+    letter-spacing: 10px;
+}
+
+.profesion{
+    font-size: 25px !important;    
+    color: #BEB2B1;
+    letter-spacing: normal !important;
+    padding-top: 10px;
+}
+
+.apellido {
+    color: #BEB2B1;
+}
+
+.datos {
+    padding-right: 100px;
+}
+
+.datos-container {
+    list-style-type: none;
+    line-height: 30px;
+}
+
+.datos-container i {
+    color: #f3aca1;
+}
+
+.foto {
+    max-height: 170px;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 40px 130px 0 130px;
+}
+
+.separador {
+    width: 100%;
+    border: 2px solid #F5DCD8;
+    margin-bottom: 20px;
+}
+
+
+.fecha-lugar {
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+
+.seccion-educacion {
+    padding-bottom: 30px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-container {
+    height: 80px;
+    background-color: #F5DCD8;
+}
